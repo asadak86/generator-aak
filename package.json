@@ -1,10 +1,10 @@
 {
   "name": "generator-sak",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "asadalikanwal/generator-sak",
+  "repository": "asadalikanwal/generator-aak",
   "author": {
     "name": "Asad Ali Kanwal",
     "email": "gotoasad@gmail.com",
