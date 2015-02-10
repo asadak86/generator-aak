@@ -1,4 +1,4 @@
-# generator-aak [![Build Status](https://secure.travis-ci.org/asadalikanwal/generator-aak.png?branch=master)](https://travis-ci.org/asadalikanwal/generator-aak)
+# generator-sak [![Build Status](https://secure.travis-ci.org/asadalikanwal/generator-sak.png?branch=master)](https://travis-ci.org/asadalikanwal/generator-sak)
 
 > [Yeoman](http://yeoman.io) generator
 
@@ -23,16 +23,16 @@ npm install -g yo
 
 Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
 
-To install generator-aak from npm, run:
+To install generator-sak from npm, run:
 
 ```bash
-npm install -g generator-aak
+npm install -g generator-sak
 ```
 
 Finally, initiate the generator:
 
 ```bash
-yo aak
+yo sak
 ```
 
 ### Getting To Know Yeoman
