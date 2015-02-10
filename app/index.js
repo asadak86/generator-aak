@@ -3,6 +3,7 @@ var util = require('util');
 var path = require('path');
 var yeoman = require('yeoman-generator');
 var chalk = require('chalk');
+var yosay = require('yosay');
 
 var OnepageGenerator = yeoman.generators.Base.extend({
 
@@ -11,6 +12,7 @@ var OnepageGenerator = yeoman.generators.Base.extend({
 
         // have Yeoman greet the user
         console.log(this.yeoman);
+        console.log("Creating Project Structure");
 
         var prompts = [{
             name: 'appName',
@@ -81,7 +83,7 @@ var OnepageGenerator = yeoman.generators.Base.extend({
     generateDemoSection: function() {
       if (this.addDemoSection) {
           var done = this.async();
-          this.invoke("aak:section", {args: ["Demo Section"]}, function(){
+          this.invoke("sak:section", {args: ["Demo Section"]}, function(){
               done();
           });
       } else {
